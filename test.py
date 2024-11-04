@@ -3,18 +3,19 @@ import random
 from ultralytics import YOLO
 
 # Load the YOLO model
-model = YOLO('C:\\Users\\gjw19\\OneDrive\\바탕 화면\\기프랩 ai\\train_experiment11\\weights\\best.pt') 
+model = YOLO('C:\\Users\\gjw19\\OneDrive\\바탕 화면\\기프랩 ai\\basicprojectlab-ai\\train_experiment11\\weights\\best.pt') 
 
 # Label map for classes in Korean
 label_map = {
-    0: "스테인리스 볼라드", 1: "탄성 고무 볼라드", 2: "유도 표지판 (2줄)", 3: "유도 표지판 (3줄)",
-    4: "보행자 안전 울타리", 5: "점자 블록", 6: "보도 (시멘트 콘크리트)", 7: "보도블록", 8: "자전거 도로",
-    9: "횡단보도", 10: "맨홀", 11: "소화전", 12: "고정식 부착식 표지", 13: "통합 표지",
-    14: "보행자 계단"
+    1: "스테인리스 볼라드", 2: "탄성 고무 볼라드", 3: "유도 표지판 (2줄)", 4: "유도 표지판 (3줄)",
+    5: "보행자 안전 울타리", 6: "점자 블록", 7: "보도 (시멘트 콘크리트)", 8: "보도블록", 9: "자전거 도로",
+    10: "맨홀", 11: "횡단보도", 12: "소화전", 13: "고정식 부착식 표지", 14: "통합 표지",
+    15: "보행자 계단"
 }
 
+
 # Load image
-image_path = 'C:\\Users\\gjw19\\Downloads\\맨홀.jpg'
+image_path = 'C:\\Users\\gjw19\\Downloads\\KakaoTalk_20241104_203829189_02.jpg'
 image = cv2.imread(image_path)
 
 # Perform object detection
