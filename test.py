@@ -49,3 +49,4 @@ cv2.imwrite('annotated_image.jpg', image)
 cv2.imshow('YOLOv8 Detection', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
