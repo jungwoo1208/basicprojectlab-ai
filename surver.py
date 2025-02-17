@@ -7,6 +7,7 @@ from ultralytics import YOLO
 app = Flask(__name__)
 CORS(app)  # CORS 활성화
 
+
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
