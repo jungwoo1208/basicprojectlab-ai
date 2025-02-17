@@ -1,6 +1,7 @@
 import os
 import shutil
 
+
 # 원본 폴더 경로
 image_folder = 'C:\\Users\\gjw19\\Downloads\\119.보행 안전을 위한 도로 시설물 데이터\\01.데이터\\2.Validation\\원천데이터\\38. 보행자_계단\\1. 불량'  # 이미지 파일이 있는 폴더 경로
 json_folder = 'C:\\Users\\gjw19\\Downloads\\119.보행 안전을 위한 도로 시설물 데이터\\01.데이터\\2.Validation\\라벨링데이터\\VL5\\38. 보행자_계단\\1. 불량'  # JSON 파일이 있는 폴더 경로
